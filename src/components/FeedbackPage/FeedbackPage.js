@@ -15,7 +15,6 @@ export const FeedbackPage = () => {
     const totalClicks = useRef()
 
     totalClicks.current = good + neutral + bad;
-console.log(totalClicks.current)
 
     const handleLeaveFeedback = (opinion) => {
         
